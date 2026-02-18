@@ -6,8 +6,8 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from ytSearch import VideosSearch
 from unidecode import unidecode
 
-from AnonXMusic import app
-from config import YOUTUBE_IMG_URL
+from anony import config
+from anony.helpers import Track
 
 
 def changeImageSize(maxWidth, maxHeight, image):
